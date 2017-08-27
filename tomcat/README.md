@@ -18,7 +18,7 @@
      +-setenv.sh #jvm参数配置及临时环境变量配置，默认配置1g内存，gc日志，内存溢出日志等  
      conf  
      +-tomcat-users.xml #tomcat用户角色配置，万能用户：admin/123456  
-     +-server.xml #服务配置  
+     +-server.xml #服务配置，仅删除注释  
      其他目录均从tomcat7中拷贝过来，无修改。  
 1. 命令：
     * 安装命令：bash bin/install_script.sh
